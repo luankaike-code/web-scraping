@@ -1,0 +1,8 @@
+[project]
+name = "web scraping"
+version = "0.1.0"
+description = "group of web scraping scripts"
+readme = "README.md"
+authors = [
+  {name = "Luan Kaike", email = "luankaikemacksantos@gmail.com"},
+]
