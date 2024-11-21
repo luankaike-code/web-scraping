@@ -1,6 +1,3 @@
-from utils.scraping import Scraping
+from sites.olx.inova import Inova
 
-web = Scraping(browser="Firefox")
-web.go('https://olx.com.br')
-for i in range(10):
-	web.scrolled_page(100*(i+1))
+Inova()
